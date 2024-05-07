@@ -20,7 +20,6 @@ void keyboardAction(GLFWwindow* window, int key, int scancode, int action, int m
 
 void windowResizeCallback(GLFWwindow* window, int width, int height) {
     auto win = (Event*)glfwGetWindowUserPointer(window);
-    std::cout << width << ' ' << height << '\n';
     win->w = width;
     win->h = height;
     glViewport(0, 0, width, height);

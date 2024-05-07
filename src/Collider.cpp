@@ -29,7 +29,6 @@ void Collider::init() {
     }
     std::cout << colliderVec4.at(1).x << ' ' << colliderVec4.at(1).y << ' ' << colliderVec4.at(1).z << '\n';
     normal = normalize(cross(colliderVec4.at(1), colliderVec4.at(3)));
-    std::cout << normal.x << ' ' << normal.y << ' ' << normal.z << '\n';
 }
 
 vec3 Collider::getNormal() {

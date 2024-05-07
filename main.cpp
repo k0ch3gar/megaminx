@@ -115,9 +115,7 @@ int main() {
                 u = 72 * 2;
                 rot = rotate(mat4(1.0f), radians(116.565f), vec3(1,0,0));
                 sideVec = rot * sideVec;
-                rot = rotate(mat4(1.0f), radians(324.0f), vec3(0,0,1));
-                sideVec = rot * sideVec;
-                std::cout << sideVec.x << ' ' << sideVec.y << ' ' << sideVec.z << '\n';
+                rot = rotate(mat4(1.0f), radians(324.0f), vec3(0,0,1);
                 sideIndex = 10;
             }
         }
