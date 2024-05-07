@@ -1,0 +1,8 @@
+C:\Users\KOSTJA\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/KOSTJA/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S C:\Users\KOSTJA\CLionProjects\megaminx -B C:\Users\KOSTJA\CLionProjects\megaminx\cmake-build-debug
+GLVND not supported. Try find OpenGL legacy
+-- Including Win32 support
+-- GLM: Version 1.0.0
+-- GLM: Build with C++ features auto detection
+-- Configuring done (0.7s)
+-- Generating done (0.2s)
+-- Build files have been written to: C:/Users/KOSTJA/CLionProjects/megaminx/cmake-build-debug
