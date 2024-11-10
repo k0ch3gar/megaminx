@@ -5,7 +5,8 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_subdirectory(lib)
 
-add_executable(megaminx main.cpp
+add_executable(megaminx
+        main.cpp
         src/Window.hpp
         src/Event.hpp
         src/Shader.hpp
